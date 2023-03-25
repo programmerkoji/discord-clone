@@ -32,5 +32,77 @@
 
   .sidebarRight {
     background-color: #2F3137;
+    width: 300px;
+    position: relative;
+    
+    .sidebarTop {
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .sidebarChannels {
+      padding: 13px 13px 0 13px;
+
+      .sidebarChannelsHeader {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 13px;
+      }
+      .sidebarHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .sidebarIcon {
+        cursor: pointer;
+      }
+    }
+
+    .sidebarFooter {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid #686a6e;
+      padding: 10px 0;
+    }
+    .sidebarAccount {
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+
+      img {
+        width: 60px;
+      }
+
+      .accountName {
+        margin-left: 5px;
+
+        h4 {
+          color: #fff;
+          font-weight: 500;
+        }
+
+        span {
+          color: #686a6e;
+        }
+      }
+    }
+
+    .sidebarVoice {
+      display: flex;
+      align-items: center;
+      color: #686a6e;
+      padding-right: 10px;
+    }
   }
 }
