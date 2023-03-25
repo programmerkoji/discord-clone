@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import Sidebar from './components/sidebar/Sidebar/Sidebar';
 
 function App() {
   return (
     <div className="App">
+      <Sidebar />
     </div>
   );
 }
