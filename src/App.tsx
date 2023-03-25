@@ -1,13 +1,15 @@
-import React from 'react';
-import './App.scss';
-import Sidebar from './components/sidebar/Sidebar/Sidebar';
+import React from "react";
+import "./App.scss";
+import Chat from "./components/chat/Chat";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
-  return (
-    <div className="App">
-      <Sidebar />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Sidebar />
+			<Chat />
+		</div>
+	);
 }
 
 export default App;

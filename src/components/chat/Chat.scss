@@ -1,0 +1,9 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  .chatMessage {
+    flex-grow: 1;
+  }
+}
