@@ -1,11 +1,19 @@
 import React from "react";
 import "./SidebarChannel.scss";
+import { DocumentData } from "firebase/firestore";
 
-const SidebarChannel = () => {
+type Props = {
+  id: string;
+  channel: DocumentData;
+}
+
+const SidebarChannel = (props: Props) => {
+  const { channel } = props;
+  
   return <div className="sidebarChannel">
     <h4>
       <span className="sidebarChannelHash">#</span>
-      udemy
+      {channel.channel.channelName}
     </h4>
   </div>;
 };
